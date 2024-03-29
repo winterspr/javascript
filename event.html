@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+        onchange: an html element  has been change,
+        onclick: user clicks an html element,
+        onmouseover: the user moves the mouse over an html element,
+        onmouseout: the user moves the mouse away from an html element,
+        onkeydown: the user pushs a keyboard key,
+        onload: the browser has finished loading the page
+    </h3>
+
+    <p id="demo"></p>
+    <button onclick="document.getElementById('demo').innerHTML=Date()">What time is it</button>
+    <br>
+    <button onclick="this.innerHTML=Date()">What time is it</button>
+</body>
+</html>

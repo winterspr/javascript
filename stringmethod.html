@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let x = "ABCDEFG";
+        let y = "Apple, Banana, Kiwi";
+    </script>
+    <button onclick="document.getElementById('demo').innerHTML = 'chieu dai chuoi: ' + x.length">length</button>
+    <button onclick="document.getElementById('demo').innerHTML = 'tach chuoi: ' + y.slice(7, 13)">Slice</button>
+    <button onclick="document.getElementById('demo').innerHTML = 'tach chuoi: ' + y.substr(7, 6)">Substr</button>
+    <button onclick="document.getElementById('demo').innerHTML = x.concat(' ' + y)">concat</button>
+    <h3>
+        at(position) method: vitri
+        charAt(position) method: return the charater at a specified index(position) in a string
+        charCodeAt(positiob) method: return the code of the character at a specified index in a string
+    </h3>
+    <h3>
+         + there are 3 mehtods for extracting a part of a string <br>
+        1: slice(start, end): extract a part of a string and return the extracted part in a new string <br>
+        if slice omit the ssecond parameter, the method will slice out the rest od the string <br>
+        if a parameter is negative, the position will counted from end of the string <br>
+        2: substring(start, end): the different from slice() is that start and values than 0 are treated as 0 <br>
+        3: substr(start, end): the different is that the second parameter specifies the length os the extracted part <br>
+         + Covering to upper and lower case <br>
+        1: .toUpperCase() <br>
+        1: .toLowerCase() <br>
+         + Java String concat() join two or more strings <br>
+         + Java string trim(): the trim() method removes whitesspace from both sides of the stringsbr   <br>
+        
+        
+    </h3>
+
+</body>
+</html>

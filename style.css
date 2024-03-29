@@ -1,0 +1,455 @@
+/* body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(0, 8%, 88%);
+} 
+
+h1{
+    color:aqua;
+    font-size: 1.5em;
+}
+
+form{
+    text-align:center;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid white;
+    background-color: white;
+    max-width: 400px;
+    border-radius: 1px;
+    box-shadow: 5px 5px 15px hsla(0,0%,0%,0.293);
+}
+
+#textBox{
+    text-align: center;
+    padding:5px;
+    color:red;
+    margin: 10px;
+    background-color: hsl(0, 8%, 99%);
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(20, 89%, 51%);
+}
+
+#result{
+    color: black;
+    font-size:1em;
+}
+/* #countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+
+#countcontent{
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    background-color: hsl(240, 30%, 68%);
+    transition: background-color 0.25s;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: hsl(240, 44%, 55%);
+} */ 
+
+/* body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(0, 8%, 88%);
+}  */
+
+/* #container{
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(13, 13, 228);
+    font-size: 3em;
+}
+
+#tag1{
+    font-size: 2em;
+    margin: 10px;
+}
+
+#number{
+    margin: 10px;
+    text-align: center;
+}
+
+#btn-roll{
+    background-color: hsl(240, 88%, 69%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-roll:hover{
+    background-color: hsl(240, 70%, 54%);
+}
+
+#btn-roll:active{
+    background-color: hsl(204, 81%, 46%);
+} */
+
+/* body{
+    background-image: url(../img/a1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    color: white;
+    font-size: 3rem;
+} */
+
+
+
+/* stopwatch program */
+/* body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color:rgb(76, 82, 87);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+#counter{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: 200;
+    color: rgb(78, 92, 104);
+    margin-bottom: 25px;
+}
+
+#controls  button{
+    font-size: 40px;
+    margin: 10px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+}
+
+#startBtn{
+    background-color: green;
+}
+
+#startBtn:hover{
+    background-color: rgb(9, 101, 9);
+}
+
+#endBtn{
+    background-color: red;
+}
+
+#endBtn:hover{
+    background-color: rgb(165, 41, 41);
+}
+
+#resetBtn{
+    background-color: green;
+}
+
+#resetBtn:hover{
+    background-color: rgb(9, 101, 9);
+} */
+
+
+/* body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: center;
+    border: none;
+    background-color: hsl(0, 0%, 15%);
+    color:aliceblue;
+}
+#command{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 30%);
+    color:aliceblue;
+    cursor: pointer;
+    border:none;
+}
+
+button:hover{
+    background-color: hsl(46, 79%, 44%);
+} */
+
+
+
+/* #myBox{
+    width: 300px;
+    height: 100px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.class1{
+    background-color: lightgreen;
+    color: white;
+}
+
+.class2{
+    background-color: blue;
+    color: white;
+}
+
+.hover{
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
+    font-weight: bold;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.hover1{
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
+    font-weight: bold;
+    background-color: black;
+    cursor: pointer;
+} */
+
+
+
+/* Rock-Paper-Sxissors */
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.choices button{
+    font-size: 120px;
+    min-width: 150px;
+    border-radius: 100px;
+    margin: 0 10px;
+    background-color: hsl(240, 18%, 27%);
+    cursor: pointer;
+    box-shadow: 0, 30%,  hsl(60, 46%, 35%);
+    border: none;
+}
+
+#playerDisplay, #computerDisplay{
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+#resultDisplay{
+    margin: 10px 0;
+    font-size: 3rem;
+} */
+
+
+
+/* Slide */
+/* .slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img{
+    width: 100%;    
+    display: none;
+    margin: 10px 0;
+    height: auto;
+}
+
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: hsl(174, 8%, 23%);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.prev{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
+@keyframes fade {
+    from{opacity: 0.5;}
+    to{opacity: 1;}
+} */
+
+
+
+/* Weather app project */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherForm{
+    margin: 20px;
+}
+
+.cityInput{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid hsla(0, 0%, 20%, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: hsl(122, 39%, 50%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: hsl(122, 39%, 40%);
+}
+
+.card{
+    background: linear-gradient(180deg, hsl(210, 100%, 70%), hsl(39, 76%, 50%));
+    padding: 50px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 20%, 0.5);
+    border-radius: 20px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.cityDisplay, .tempDisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+
+.humidityDisplay{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.descDisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.weatherEmoji{
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.errorDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+}

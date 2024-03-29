@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>what can javascript do?</h2>
+    <p id="demo">javascript can change html content</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML="Hello Javascript"'>Click me</button>
+
+    <h2>javascript can change html attribute values</h2>
+    <button type="button" onclick="document.getElementById('myimage').src='pic_bulbon.gif'">turn on</button>
+    <img id="myimage" src="pic_bulboff.gif" alt="" style="width: 100px">
+    <button type="button" onclick="document.getElementById('myimage').src='pic_bulboff.gif'">turn off</button>
+
+    <h2>Javascript can change html style</h2>
+    <p id="one">javascript</p>
+    <button onclick="document.getElementById('one').style.fontSize='10px'">Click me</button>
+
+    <h2>Javascript can hide html element</h2>
+    <p id="two">javascript</p>
+    <button onclick="document.getElementById('two').style.display='none'">Click me</button>
+</body>
+</html>
+
